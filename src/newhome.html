@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="bg-light text-dark">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item me-5">
+                        <a class="nav-link text-info" href="newhome.html">Home</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-info" href="newproject.html">Projects</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-info" href="neweducation.html">Education</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-info" href="newvolunteer.html">Volunteer Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="newsocials.html">Socials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Portrait and Personal Info -->
+    <div class="card shadow-lg rounded mx-3 my-4">
+        <div class="card-body text-center">
+            <img src="Images/Portrait.png" alt="Portrait" class="rounded-circle border border-secondary shadow-sm mx-auto" style="width: 268px; height: auto;">
+            <div class="mt-3">
+                <p>"If, at first, you do not succeed, call it version 1.0." ― Khayri R.R. Woulfe</p>
+                <p>Hello there! My name Is Nobel Tibebe. I am a Software Engineering student.</p>
+                <p>This Document is a portfolio of all my projects and experiences.</p>
+                <p>Feel free to Look around.</p>
+                <p>You can find links to my socials, projects, and much more from the Navigation bar.</p>
+                <p>I have a broad skillset. Some of them are listed below:</p>
+               
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="accordion align-items-center mx-3 my-1" id="workExperienceAccordion">
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Web Development
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#workExperienceAccordion">
+                <div class="accordion-body">
+<p>As a skilled web developer, I bring ideas to life through clean, efficient code, creating websites that are not only visually appealing but also highly functional and user-friendly.</p><p>My expertise lies in understanding both the front and back-end technologies, ensuring seamless integration for an optimal user experience. </p><p> Every line of code I write is aimed at building responsive, accessible, and innovative web solutions that drive digital transformation and meet the evolving needs of users and businesses.</p>            </div>
+        </div>
+    
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Copywriting
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#workExperienceAccordion">
+                <div class="accordion-body">
+<p>As a successful copywriter, I excel in crafting compelling narratives that resonate with diverse audiences, blending creativity with strategic insight to drive brand engagement. </p><p>My words are more than just text; they're the voice of the brand, telling stories that connect, persuade, and inspire action. Through meticulous research and a deep understanding of language's power, I create content that not only informs but also transforms perceptions and behaviors.</p> </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Graphic Design
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#workExperienceAccordion">
+                <div class="accordion-body">
+<p>As a creative graphic designer, I possess a keen eye for aesthetics and a deep understanding of visual communication.</p><p></p> My designs are more than just visually pleasing; they tell a story, evoke emotions, and create a lasting impact.</p><p> I skillfully blend colors, typography, and imagery to convey messages in an engaging and memorable way, always staying ahead of trends to deliver innovative and effective design solutions that resonate with the target audience.</p>            </div>
+        </div>
+    
+    </div>
+    
+    <!-- Projects Link -->
+    <div class="text-center card shadow-lg rounded my-4">
+        <div class="dropdown">
+            <button class="btn btn-secondary bg-successdropdown-toggle bg-success" type=button id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Brand Collaborations
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <div class="text-center bg-light card shadow-lg rounded mx-1 my-1">
+                    <div class="card-body bg-success">
+                        <p class="text-white">Click this link to view the brands I work with.</p>
+                        <a href="newproject.html" class="text-info">Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <!-- Footer -->
+   <div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&#169; 2023 Nobel Tibebe. All Rights Reserved.</p>
+    </footer>
+</div>
+    
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 mb-3 me-3">
+        <span class="text-lg">&#10580;</span>
+    </button>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
